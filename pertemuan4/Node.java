@@ -1,10 +1,11 @@
-package pertemuan4.Tugas;
+package pertemuan4;
+
 
 public class Node {
-        //Tugas 1
-        private double data; // pergantian tipe data dari int ke double
+
+        private int data;
         private Node next;
-        public Node(double data) {
+        public Node(int data) {
             this.data = data;
         }
 
@@ -12,11 +13,11 @@ public class Node {
             return next;
         }
 
-        public double getData() {
+        public int getData() {
             return data;
         }
 
-        public void setData(double data) {
+        public void setData(int data) {
             this.data = data;
         }
 

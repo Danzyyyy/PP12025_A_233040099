@@ -1,4 +1,4 @@
-package pertemuan6;
+package pertemuan7;
 
 public class StrukturListTest {
 

@@ -9,6 +9,7 @@ public class ListTest {
         list.addTail(5);
 
 
+
         System.out.print("Elemen: ");
         list.displayElements();
     }
