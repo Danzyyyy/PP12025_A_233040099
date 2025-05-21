@@ -61,18 +61,15 @@ public class StrukturStack {
         return temp;
     }
 
-    public String displayElements() {
+    public String displayStack(){
         if (isEmpty()) {
-            return "";
-        }
-
-        StringBuilder elements = new StringBuilder();
-        for (int i = TOP; i >= 0; i--) {
-            elements.append(array[i]);
-            if (i > 0) {
-                elements.append(" ");
+            System.out.print("Elemen From TOP: ");
+        } else {
+            System.out.print("Elemen From TOP: ");
+            for (int i = TOP; i >= 0; i--) {
+                System.out.print(" " + array[i]);
             }
         }
-        return elements.toString();
+        return "";
     }
 }

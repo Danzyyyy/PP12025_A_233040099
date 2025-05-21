@@ -61,11 +61,15 @@ public class AbstractStack {
         return temp;
     }
 
-    public String displayElements() {
-        String elemen = "";
-        for (int i = TOP; i > MIN; i--) {
-            elemen=elemen+ array[i]+ " ";
+    public String displayStack(){
+        if (isEmpty()) {
+            System.out.print("Elemen From TOP: ");
+        } else {
+            System.out.print("Elemen From TOP: ");
+            for (int i = TOP; i >= 0; i--) {
+                System.out.print(" " + array[i]);
+            }
         }
-        return elemen;
+        return "";
     }
 }
